@@ -1,0 +1,76 @@
+  .categorychecklist, .children{
+    list-style: none;
+  }
+  #categorychecklist{
+    padding-left: 0px;
+  }
+  #categorychecklist ul li label,#categorychecklist li label{
+    font-weight: normal;
+    cursor: pointer;
+    display: block;
+    margin-bottom: 0px;
+    border: solid 1px #fff;
+    font-size: 13px;
+    padding-left: 5px;
+    transition: all 0.5s ease;
+  }
+  #categorychecklist ul li label:hover,#categorychecklist li label:hover{
+    border: solid 1px #3c8dbc;
+  }
+  #category-all{
+    display: block;
+    height: 250px;
+    overflow: auto;
+    border: solid 1px #eee;
+    padding: 5px;
+  }
+  
+  .error-form-post{
+    color: red;
+    font-size: 20px;
+}
+
+.error{
+    color: red;
+}
+.datepicker{z-index:1151 !important;}
+.overlay-details{
+  background: rgba(255, 255, 255, 0.7) none repeat scroll 0 0;
+  border-radius: 3px;
+  z-index: 50;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.overlay-details > .fa{
+  color: #000;
+font-size: 30px;
+left: 50%;
+margin-left: -15px;
+margin-top: -15px;
+position: absolute;
+top: 50%;
+}
+
+.cursor-pointer{
+	cursor:pointer;}
+
+.select2-close-mask{
+    z-index: 2099;
+}
+.select2-dropdown{
+    z-index: 3051;
+}
+
+#hidden-table{
+  display: none
+}
+#result-search-pasien{
+  font-size: 18px;
+}
+#result-search-pasien tr td{
+  padding:5px;
+}

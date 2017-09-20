@@ -1,0 +1,38 @@
+Langkah Instalasi
+
+1. Pull Repository Aplikasi
+2. Import Database "Test.sql" / Buat Database baru kemudian migrate database dari aplikasi dengan cara php artisan migrate
+3. Kemudian jalankan aplikasi dengan mode devel php artisan serve pada command line sesuai dengan direktori Website / Aplikasi
+4. Sesuaikan .env dengan konfigurasi server dan dataabse yang telah dibuat
+
+======================== Technical Knowledge & Experience ===============================
+
+Silakan jawab pertanyaan di bawah ini sesuai dengan pengetahuan dan pengalaman anda dalam bentuk markdown dan sertakan pada project Anda di Github
+
+> Jelaskan bagaimana anda menggunakan GIT untuk proses development sampai deployment production
+Aplikasi di pull melalui repository yang tersedia, jika proses pull dari server selesai maka
+aplikasi dapat dijalankan, setelah file yang dirubah disesuaikan kemudian commit file yang akan di push dengan cara commit
+kemudian jika commit selesai maka dipush, 
+
+jika terdapat perubahan dari repository yang telah dibuat commit terlebih dahulu terhadap perubahan yang akan dibuat
+kemudian pull repository merge dengan perubahan yang telah dibuat kemudian push kembali ke repository production
+
+> Mana yang anda dahulukan, mengatasi technical debt atau menyelesaikan fitur?
+technical debt karena technical debt harus diselesaikan terlebih dahulu sebab dapat mengganggu jalannya aplikasi 
+
+> Bolehkah kita mengirim email melalui Controller? Apa alasannya?
+Boleh, karena controller merupakan proses dimana pengaturah email yang akan dikirim dibuat tentunya dengan proteksi dari middleware yang telah dibuat
+
+> Bagaimana anda menilai aplikasi yang berkualitas?
+Aplikasi yang berkualitas adalah aplikasi yang memenuhi kebutuhan dan menyelesaikan permasalahan 
+dari pengguna aplikasi disamping menyelesaikan masalah juga memiliki nilai tambah dari penyelesaian masalah yang 
+dapat membantu pengguna / client dari aplikasi tersebut agar mendapat nilai tambah.
+
+> Jelaskan bagaimana anda melakukan proses debugging suatu aplikasi.
+PHP
+1. Jika terdapat error maka error di trace dari baris tersebut
+2. jika permasalahan tersebut lebih sulit cari di stackoverflow
+3. Jika proses data maka dihandle dengan fungsi-fungsi biasa
+
+JS
+1. Jika permasalah ada pada ajax maka gunakan console debugger dan network pada browser
